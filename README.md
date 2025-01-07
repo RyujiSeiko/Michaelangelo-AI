@@ -24,7 +24,9 @@ Botpic:
 Use the "/mybots" command, then press "Edit Commands". If you do not do this, the command codes in the script will not work. It is self explanatory, and you can do anything with it, but for this script, copy paste the text below:
 
 start - Find out what the bot can do.
+
 help - Get assistance for this bot. 
+
 generate - give a prompt to generate an image
 
 Once that is done, you can type the name of your bot in the user search bar and it will pop up. If you start the chat, nothing will happen if the code is not connected. To connect the script to telegram, as mentioned before, you must copy paste your API key into the script.
