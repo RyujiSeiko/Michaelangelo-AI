@@ -20,6 +20,7 @@ About:
 AI image generator
 
 Botpic:
+
 ![telegram-cloud-photo-size-2-5438480078200761727-x](https://github.com/user-attachments/assets/f4f415ad-cf2c-46e1-a176-f0689eac21a1)
 
 Use the "/mybots" command, then press "Edit Commands". If you do not do this, the command codes in the script will not work. It is self explanatory, and you can do anything with it, but for this script, copy paste the text below:
@@ -52,8 +53,10 @@ pip install requests
 pip install huggingface_hub
 
 Once this is done, your code should operate properly. Press the Run button, and it should show "Bot is running...". There might be an error like this:
+
 "/Users/nmuradli/PycharmProjects/Michaelangelo/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
   warnings.warn("
+  
 Don't mind it. It will not stop your code, nor will it interrupt any process. You can ignore it. Generally, most common errors, generation attempts and requests should show up in an easy-to-read way while the code is running. The most common one is "Model is busy or failed after several attempts". This indicates that Stable Diffusion servers are too busy and requests to HuggingFace were not returned. Don't worry, it's not a fault in the code! Try again after waiting a little bit and it should work.
 
 4) Testing
