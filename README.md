@@ -35,7 +35,9 @@ When that's done, simply copy and paste your API key into the designated area wi
 
 3) Setting up the script.
 As mentioned before, I personally recommend using PyCharm to set up the script, for the sake of comfort and easiness. It doesn't just end with copy pasting the script. You must paste your Bot and API tokens where they're required. After that, you will have to download a multitude of libraries. Copy paste the scripts given below into the terminal to download the required libraries.
+
 ![image](https://github.com/user-attachments/assets/573b84d4-ed61-428b-a790-9438bef23bb4)
+
 pip install python-telegram-bot
 pip install python-telegram-bot --upgrade (optional)
 pip install requests
