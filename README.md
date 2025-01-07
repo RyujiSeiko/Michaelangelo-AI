@@ -41,7 +41,7 @@ As mentioned before, I personally recommend using PyCharm to set up the script, 
 pip install python-telegram-bot                                                                                                                             
 pip install python-telegram-bot --upgrade (optional)                                                                                                     
 pip install requests                                                                                                                                       
-pip install huggingface_hub \n
+pip install huggingface_hub
 
 Once this is done, your code should operate properly. Press the Run button, and it should show "Bot is running...". There might be an error like this:
 "/Users/nmuradli/PycharmProjects/Michaelangelo/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
