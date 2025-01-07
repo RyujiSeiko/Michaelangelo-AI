@@ -63,7 +63,11 @@ Don't mind it. It will not stop your code, nor will it interrupt any process, it
 
 4) Testing
    
-Once the bot is running, go back to telegram and test out all the commands, generations, typing animation and prompts. Everything worked for me, but if you have an issue, you can contact me, research online, or easiest of all- ask ChatGPT, a fellow AI model!
+Once the bot is running, go back to telegram and test out all the commands, generations, typing animation and prompts. When the "/start" command is used for the first time, a file named "users.db" is created. To check if your database is working correctly or not, you should upload it to your DB browser for SQLite. Press on "Browse Data" and there should be a table with the chronolical order of users (also how IDs are given), their usernames and Telegram IDs. Every time a new user starts a chat with the bot, they will be recorded in the same file.
+
+All images that you generate are conveniently placed in your project files, so if you ever want to check them out, you can open your project files and find them there (or in the bot chat).
+
+Everything worked for me, but if you have an issue, you can contact me, research online, or easiest of all- ask ChatGPT, a fellow AI model!
 
 
 
