@@ -1,6 +1,8 @@
 # Michaelangelo-AI
 This project was made for the AI challenge in ADA School.
-This README file will guide you step-by-step through how to set up the code and use it properly. This is a text-based tutorial. A video based tutorial is also uploaded in the repository.
+This README file will guide you step-by-step through how to set up the code and use it properly. This is a text-based tutorial. Here is a video-based tutorial for steps 1, 2 and 3:
+
+https://youtu.be/m1041ekcIrs
 
 0) Requirements
 - PyCharm or Visual Studio Code (I personally recommend PyCharm)
@@ -38,7 +40,7 @@ Once that is done, you can type the name of your bot in the user search bar and 
 Enter "https://huggingface.co/". Once you do so, you should either Log In or Sign Up if you haven't yet. At the top right is your profile icon. Press it, and you will see an "Access Tokens" option. That is where you create your API key. Press on "+Create new token". It might seem confusing since most models don't ask for permissions like Hugging Face does. Just keep the Finegrained option (which is default), and enable all permissions. After that, it will show your API key. BEWARE: Your HuggingFace API key will only be shown ONE TIME. Copy paste it somewhere else to keep it safe. DO NOT SHARE THIS KEY.
 When that's done, simply copy and paste your API key into the designated area within the script. This is how we will connect to Hugging Face's AI services.
 
-4) Setting up the script.
+3) Setting up the script.
    
 As mentioned before, I personally recommend using PyCharm to set up the script, for the sake of comfort and easiness. It doesn't just end with copy pasting the script. You must paste your Bot and API tokens where they're required. After that, you will have to download a multitude of libraries. Copy paste the scripts given below into the terminal to download the required libraries.
 
